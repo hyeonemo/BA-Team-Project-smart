@@ -52,7 +52,11 @@ def build():
             from notify import PAT, layer_text
             lab = PAT.get(r.get("pattern") or "", ("기준 아래", ""))[0] if r.get("pattern") else "기준 아래"
             lay = r.get("layers") or {}
-            note = f"{layer_text(r)} → <b>{html.escape(lab)}</b><br><small>{LN_["ing"]}: {html.escape('·'.join(lay.get('ing', [])) or '없음')} / {LN_["cat"]}: {html.escape('·'.join(lay.get('cat', [])) or '없음')}</small>"
+            _ing = html.escape("·".join(lay.get("ing", [])) or "없음")
+            _cat = html.escape("·".join(lay.get("cat", [])) or "없음")
+            _lab = html.escape(lab)
+            _li, _lc = LN_["ing"], LN_["cat"]
+            note = f"{layer_text(r)} → <b>{_lab}</b><br><small>{_li}: {_ing} / {_lc}: {_cat}</small>"
         else:
             chart2 = ""; tbl = ""
             note = f"제품 자체 검색이 평소 폭의 <b>{r['ratio']:.1f}배</b>입니다. 연결 키워드가 없어 제품 자체 검색만 감지합니다."
