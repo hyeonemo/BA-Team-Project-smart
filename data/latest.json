@@ -1,0 +1,239 @@
+{
+ "asof": "2026-11-14",
+ "threshold": 1.0,
+ "market_common_z": 0.29,
+ "products": {
+  "갤럭시 Z플립": {
+   "mode": "score",
+   "score": -0.263,
+   "ratio": 0.33,
+   "status": "알림 없음",
+   "contrib": {
+    "폴더블폰": {
+     "z_adj": -0.48,
+     "weight": 0.33,
+     "part": -0.159
+    },
+    "플립폰": {
+     "z_adj": -0.41,
+     "weight": 0.25,
+     "part": -0.103
+    }
+   },
+   "own_z": 0.33,
+   "score_ratio": -0.27,
+   "own_ratio": 0.33,
+   "trigger": null,
+   "ing_ratio": null,
+   "cat_ratio": -0.26,
+   "layers": {
+    "cat": [
+     "폴더블폰",
+     "플립폰"
+    ]
+   },
+   "pattern": "",
+   "last_event": "2026-10-27",
+   "event": {},
+   "competitors": {
+    "label": "스마트폰",
+    "items": [
+     {
+      "name": "아이폰",
+      "z": -0.66,
+      "pct": -20
+     },
+     {
+      "name": "구글 픽셀",
+      "z": -0.39,
+      "pct": -11
+     },
+     {
+      "name": "샤오미 폰",
+      "z": -0.06,
+      "pct": -8
+     }
+    ],
+    "median_z": -0.39,
+    "our_z": 0.33,
+    "hot": [],
+    "verdict": "경쟁·우리 모두 큰 변화 없음"
+   }
+  },
+  "갤럭시북": {
+   "mode": "score",
+   "score": 0.536,
+   "ratio": 1.4,
+   "status": "진행(유지·확대)",
+   "contrib": {
+    "대학생 노트북": {
+     "z_adj": 1.07,
+     "weight": 0.5,
+     "part": 0.536
+    }
+   },
+   "own_z": 1.1,
+   "score_ratio": 1.4,
+   "own_ratio": 1.1,
+   "trigger": "both",
+   "ing_ratio": null,
+   "cat_ratio": 1.4,
+   "layers": {
+    "cat": [
+     "대학생 노트북"
+    ]
+   },
+   "pattern": "C+P",
+   "last_event": "2026-11-13",
+   "event": {
+    "start": "2026-11-13",
+    "day_n": 2,
+    "peak": 1.64,
+    "peak_day": "2026-11-13",
+    "prev": 1.64,
+    "phase": "지속"
+   },
+   "competitors": {
+    "label": "노트북",
+    "items": [
+     {
+      "name": "맥북",
+      "z": 0.03,
+      "pct": 0
+     },
+     {
+      "name": "LG 그램",
+      "z": 0.96,
+      "pct": 17
+     },
+     {
+      "name": "샤오미 노트북",
+      "z": 0.83,
+      "pct": 16
+     }
+    ],
+    "median_z": 0.83,
+    "our_z": 1.1,
+    "hot": [],
+    "verdict": "우리 상승, 경쟁도 다소 상승"
+   }
+  },
+  "갤럭시 버즈": {
+   "mode": "score",
+   "score": -0.413,
+   "ratio": 1.12,
+   "status": "진행(유지·확대)",
+   "contrib": {
+    "이어폰": {
+     "z_adj": -1.88,
+     "weight": 0.22,
+     "part": -0.413
+    }
+   },
+   "own_z": 1.12,
+   "score_ratio": -1.75,
+   "own_ratio": 1.12,
+   "trigger": "own",
+   "ing_ratio": null,
+   "cat_ratio": -1.75,
+   "layers": {
+    "cat": [
+     "이어폰"
+    ]
+   },
+   "pattern": "P",
+   "last_event": "2026-11-11",
+   "event": {
+    "start": "2026-11-11",
+    "day_n": 4,
+    "peak": 1.39,
+    "peak_day": "2026-11-11",
+    "prev": 1.16,
+    "phase": "지속"
+   },
+   "competitors": {
+    "label": "무선이어폰",
+    "items": [
+     {
+      "name": "에어팟",
+      "z": -0.47,
+      "pct": -7
+     },
+     {
+      "name": "소니 이어폰",
+      "z": 1.5,
+      "pct": 31
+     },
+     {
+      "name": "샤오미 이어폰",
+      "z": -0.17,
+      "pct": -8
+     }
+    ],
+    "median_z": -0.17,
+    "our_z": 1.12,
+    "hot": [
+     "소니 이어폰"
+    ],
+    "verdict": "우리만 상승 (경쟁은 평소 수준)"
+   }
+  },
+  "갤럭시 워치": {
+   "mode": "score",
+   "score": 0.156,
+   "ratio": 0.16,
+   "status": "진행(둔화)",
+   "contrib": {},
+   "own_z": 0.16,
+   "score_ratio": null,
+   "own_ratio": 0.16,
+   "trigger": null,
+   "ing_ratio": null,
+   "cat_ratio": -2.65,
+   "layers": {
+    "cat": [
+     "스마트워치"
+    ]
+   },
+   "pattern": "",
+   "last_event": "2026-11-03",
+   "event": {
+    "start": "2026-11-03",
+    "day_n": 12,
+    "peak": 1.04,
+    "peak_day": "2026-11-03",
+    "prev": 0.09,
+    "phase": "둔화"
+   },
+   "competitors": {
+    "label": "스마트워치",
+    "items": [
+     {
+      "name": "애플워치",
+      "z": -0.77,
+      "pct": -11
+     },
+     {
+      "name": "샤오미 워치",
+      "z": -0.72,
+      "pct": -11
+     },
+     {
+      "name": "가민",
+      "z": -0.47,
+      "pct": -16
+     }
+    ],
+    "median_z": -0.72,
+    "our_z": 0.16,
+    "hot": [],
+    "verdict": "경쟁·우리 모두 큰 변화 없음"
+   }
+  }
+ },
+ "reference": {
+  "삼성전자": 0.07,
+  "애플": -0.67,
+  "갤럭시": 0.21
+ }
+}
