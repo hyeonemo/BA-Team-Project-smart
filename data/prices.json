@@ -329,7 +329,7 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"isNaverPayPlus \":true, \"benefitPriceInfo \":{ \"benefitNameText \": \""
     },
     {
-     "shop": "SSG.COM",
+     "shop": "신세계몰",
      "price": 398169,
      "ship_text": "무료배송",
      "ship": 0,
@@ -339,7 +339,7 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
     },
     {
-     "shop": "신세계몰",
+     "shop": "SSG.COM",
      "price": 398169,
      "ship_text": "무료배송",
      "ship": 0,
@@ -359,7 +359,7 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":true, \"quickDeliveryText \": \"평일 15:00까지 주문 시 \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redire"
     },
     {
-     "shop": "현대Hmall",
+     "shop": "YES24",
      "price": 419000,
      "ship_text": "무료배송",
      "ship": 0,
@@ -369,7 +369,7 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
     },
     {
-     "shop": "YES24",
+     "shop": "현대Hmall",
      "price": 419000,
      "ship_text": "무료배송",
      "ship": 0,
