@@ -1,31 +1,31 @@
 {
- "asof": "2026-11-19",
+ "asof": "2026-11-20",
  "threshold": 1,
- "market_common_z": 1.2,
+ "market_common_z": 1.09,
  "products": {
   "갤럭시 Z플립": {
    "mode": "score",
-   "score": -0.834,
-   "ratio": -0.74,
+   "score": -0.802,
+   "ratio": -0.7,
    "status": "알림 없음",
    "contrib": {
     "폴더블폰": {
-     "z_adj": -1.62,
+     "z_adj": -1.64,
      "weight": 0.33,
-     "part": -0.535
+     "part": -0.54
     },
     "플립폰": {
-     "z_adj": -1.2,
+     "z_adj": -1.05,
      "weight": 0.25,
-     "part": -0.299
+     "part": -0.262
     }
    },
-   "own_z": -0.74,
-   "score_ratio": -1.08,
-   "own_ratio": -0.74,
+   "own_z": -0.7,
+   "score_ratio": -1.03,
+   "own_ratio": -0.7,
    "trigger": null,
    "ing_ratio": null,
-   "cat_ratio": -1.01,
+   "cat_ratio": -0.95,
    "layers": {
     "cat": [
      "폴더블폰",
@@ -40,102 +40,102 @@
     "items": [
      {
       "name": "아이폰",
-      "z": -0.54,
-      "pct": -17
-     },
-     {
-      "name": "구글 픽셀",
-      "z": -0.33,
+      "z": -0.26,
       "pct": -10
      },
      {
+      "name": "구글 픽셀",
+      "z": -0.58,
+      "pct": -15
+     },
+     {
       "name": "샤오미 폰",
-      "z": 0.28,
-      "pct": 3
+      "z": 0.5,
+      "pct": 12
      }
     ],
-    "median_z": -0.33,
-    "our_z": -0.74,
+    "median_z": -0.26,
+    "our_z": -0.7,
     "hot": [],
     "verdict": "경쟁·우리 모두 큰 변화 없음"
    }
   },
   "갤럭시북": {
    "mode": "score",
-   "score": 0.055,
-   "ratio": 1.0,
-   "status": "진행(유지·확대)",
+   "score": 0.004,
+   "ratio": 0.83,
+   "status": "진행(둔화)",
    "contrib": {
     "대학생 노트북": {
-     "z_adj": 0.11,
+     "z_adj": 0.01,
      "weight": 0.5,
-     "part": 0.055
+     "part": 0.004
     }
    },
-   "own_z": 1.0,
-   "score_ratio": 0.3,
-   "own_ratio": 1.0,
-   "trigger": "own",
+   "own_z": 0.83,
+   "score_ratio": 0.18,
+   "own_ratio": 0.83,
+   "trigger": null,
    "ing_ratio": null,
-   "cat_ratio": 0.3,
+   "cat_ratio": 0.18,
    "layers": {
     "cat": [
      "대학생 노트북"
     ]
    },
-   "pattern": "P",
+   "pattern": "",
    "last_event": "2026-11-13",
    "event": {
     "start": "2026-11-13",
-    "day_n": 7,
+    "day_n": 8,
     "peak": 1.64,
     "peak_day": "2026-11-13",
-    "prev": 1.08,
-    "phase": "완화"
+    "prev": 1.0,
+    "phase": "종료"
    },
    "competitors": {
     "label": "노트북",
     "items": [
      {
       "name": "맥북",
-      "z": -0.33,
-      "pct": -9
+      "z": -0.08,
+      "pct": -3
      },
      {
       "name": "LG 그램",
-      "z": 0.81,
+      "z": 0.8,
       "pct": 14
      },
      {
       "name": "샤오미 노트북",
-      "z": -0.48,
-      "pct": -14
+      "z": -0.59,
+      "pct": -16
      }
     ],
-    "median_z": -0.33,
-    "our_z": 1.0,
+    "median_z": -0.08,
+    "our_z": 0.83,
     "hot": [],
-    "verdict": "우리만 상승 (경쟁은 평소 수준)"
+    "verdict": "경쟁·우리 모두 큰 변화 없음"
    }
   },
   "갤럭시 버즈": {
    "mode": "score",
-   "score": -0.104,
-   "ratio": 0.66,
+   "score": -0.032,
+   "ratio": 0.22,
    "status": "진행(둔화)",
    "contrib": {
     "이어폰": {
-     "z_adj": -0.47,
+     "z_adj": -0.15,
      "weight": 0.22,
-     "part": -0.104
+     "part": -0.032
     }
    },
-   "own_z": 0.66,
-   "score_ratio": -0.41,
-   "own_ratio": 0.66,
+   "own_z": 0.22,
+   "score_ratio": -0.1,
+   "own_ratio": 0.22,
    "trigger": null,
    "ing_ratio": null,
-   "cat_ratio": -0.41,
+   "cat_ratio": -0.1,
    "layers": {
     "cat": [
      "이어폰"
@@ -145,10 +145,10 @@
    "last_event": "2026-11-11",
    "event": {
     "start": "2026-11-11",
-    "day_n": 9,
+    "day_n": 10,
     "peak": 1.39,
     "peak_day": "2026-11-11",
-    "prev": 0.84,
+    "prev": 0.66,
     "phase": "둔화"
    },
    "competitors": {
@@ -156,22 +156,22 @@
     "items": [
      {
       "name": "에어팟",
-      "z": -0.22,
-      "pct": -4
+      "z": 0.07,
+      "pct": -1
      },
      {
       "name": "소니 이어폰",
-      "z": 1.64,
-      "pct": 35
+      "z": 1.26,
+      "pct": 27
      },
      {
       "name": "샤오미 이어폰",
-      "z": -0.15,
-      "pct": -7
+      "z": -0.31,
+      "pct": -11
      }
     ],
-    "median_z": -0.15,
-    "our_z": 0.66,
+    "median_z": 0.07,
+    "our_z": 0.22,
     "hot": [
      "소니 이어폰"
     ],
@@ -180,16 +180,16 @@
   },
   "갤럭시 워치": {
    "mode": "score",
-   "score": -0.016,
-   "ratio": -0.02,
+   "score": -0.256,
+   "ratio": -0.26,
    "status": "알림 없음",
    "contrib": {},
-   "own_z": -0.02,
+   "own_z": -0.26,
    "score_ratio": null,
-   "own_ratio": -0.02,
+   "own_ratio": -0.26,
    "trigger": null,
    "ing_ratio": null,
-   "cat_ratio": -0.74,
+   "cat_ratio": -0.35,
    "layers": {
     "cat": [
      "스마트워치"
@@ -203,30 +203,30 @@
     "items": [
      {
       "name": "애플워치",
-      "z": -0.36,
-      "pct": -7
+      "z": -0.28,
+      "pct": -6
      },
      {
       "name": "샤오미 워치",
-      "z": -0.72,
+      "z": -0.78,
       "pct": -11
      },
      {
       "name": "가민",
-      "z": -0.1,
-      "pct": -8
+      "z": -0.02,
+      "pct": -6
      }
     ],
-    "median_z": -0.36,
-    "our_z": -0.02,
+    "median_z": -0.28,
+    "our_z": -0.26,
     "hot": [],
     "verdict": "경쟁·우리 모두 큰 변화 없음"
    }
   }
  },
  "reference": {
-  "삼성전자": -0.44,
-  "애플": -0.77,
-  "갤럭시": -0.19
+  "삼성전자": -0.45,
+  "애플": -0.72,
+  "갤럭시": -0.14
  }
 }
