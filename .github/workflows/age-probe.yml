@@ -1,0 +1,23 @@
+name: age-probe
+on:
+  workflow_dispatch: {}        # 수동 실행 전용
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+      NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: pip install -r requirements.txt
+      - run: python scripts/age_probe.py
+      - name: 결과 저장
+        run: |
+          git config user.name "alert-bot"; git config user.email "bot@users.noreply.github.com"
+          git add data/age_probe.csv data/age_probe_summary.txt
+          git commit -m "age probe" || echo "변경 없음"
+          git push
