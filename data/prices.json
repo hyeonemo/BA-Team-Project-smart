@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-24",
+ "asof": "2026-11-25",
  "items": {
   "갤럭시 Z플립": {
    "ok": true,
@@ -9,16 +9,6 @@
    "n_sellers": 10,
    "sellers": [
     {
-     "shop": "11번가",
-     "price": 1427020,
-     "ship_text": "무료배송",
-     "ship": 0,
-     "total": 1427020,
-     "ship_known": true,
-     "card": "",
-     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"type \": \"lowest \", \"bridgePageLink \": \"https://www.enuri.com/move/"
-    },
-    {
      "shop": "G마켓",
      "price": 1427030,
      "ship_text": "무료배송",
@@ -26,7 +16,7 @@
      "total": 1427030,
      "ship_known": true,
      "card": "",
-     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
+     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"type \": \"lowest \", \"bridgePageLink \": \"https://www.enuri.com/move/"
     },
     {
      "shop": "롯데ON",
@@ -39,16 +29,6 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
     },
     {
-     "shop": "롯데홈쇼핑",
-     "price": 1464140,
-     "ship_text": "무료배송",
-     "ship": 0,
-     "total": 1464140,
-     "ship_known": true,
-     "card": "삼성카드",
-     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"cardInfo \":{ \"cardNameText \": \"삼성카드 \", \"cardPrice \":1464140}, \"bri"
-    },
-    {
      "shop": "옥션",
      "price": 1465440,
      "ship_text": "무료배송",
@@ -59,24 +39,34 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
     },
     {
-     "shop": "스마트더몰",
-     "price": 1530600,
+     "shop": "11번가",
+     "price": 1469290,
      "ship_text": "무료배송",
      "ship": 0,
-     "total": 1530600,
-     "ship_known": true,
-     "card": "",
-     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"isNaverPayPlus \":true, \"benefitPriceInfo \":{ \"benefitNameText \": \""
-    },
-    {
-     "shop": "롯데홈쇼핑",
-     "price": 1541200,
-     "ship_text": "무료배송",
-     "ship": 0,
-     "total": 1541200,
+     "total": 1469290,
      "ship_known": true,
      "card": "",
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
+    },
+    {
+     "shop": "SK스토아",
+     "price": 1470942,
+     "ship_text": "무료배송",
+     "ship": 0,
+     "total": 1470942,
+     "ship_known": true,
+     "card": "KB카드",
+     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"cardInfo \":{ \"cardNameText \": \"KB카드 \", \"cardPrice \":1470942}, \"bri"
+    },
+    {
+     "shop": "제이플러스시스템",
+     "price": 1480000,
+     "ship_text": "무료배송",
+     "ship": 0,
+     "total": 1480000,
+     "ship_known": true,
+     "card": "",
+     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"isNaverPayPlus \":true, \"benefitPriceInfo \":{ \"benefitNameText \": \""
     },
     {
      "shop": "SK스토아",
@@ -84,6 +74,16 @@
      "ship_text": "무료배송",
      "ship": 0,
      "total": 1548360,
+     "ship_known": true,
+     "card": "",
+     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
+    },
+    {
+     "shop": "롯데홈쇼핑",
+     "price": 1548850,
+     "ship_text": "무료배송",
+     "ship": 0,
+     "total": 1548850,
      "ship_known": true,
      "card": "",
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
@@ -99,7 +99,7 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
     },
     {
-     "shop": "전자랜드",
+     "shop": "하이마트",
      "price": 1598850,
      "ship_text": "무료배송",
      "ship": 0,
@@ -120,40 +120,40 @@
    "sellers": [
     {
      "shop": "G마켓",
-     "price": 1545750,
+     "price": 1546150,
      "ship_text": "무료배송",
      "ship": 0,
-     "total": 1545750,
+     "total": 1546150,
      "ship_known": true,
      "card": "NH카드",
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":true, \"quickDeliveryText \": \"평일 15:00까지 주문 시 \"}, \"reward \":[], \"type \": \"cardLowest \", \"cardInfo \":{ \"cardNameText \""
     },
     {
-     "shop": "옥션",
-     "price": 1547750,
+     "shop": "G마켓",
+     "price": 1547650,
      "ship_text": "무료배송",
      "ship": 0,
-     "total": 1547750,
+     "total": 1547650,
      "ship_known": true,
      "card": "",
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":true, \"quickDeliveryText \": \"평일 15:00까지 주문 시 \"}, \"reward \":[], \"type \": \"lowest \", \"bridgePageLink \": \"https://www.e"
     },
     {
-     "shop": "G마켓",
-     "price": 1547750,
+     "shop": "옥션",
+     "price": 1547650,
      "ship_text": "무료배송",
      "ship": 0,
-     "total": 1547750,
+     "total": 1547650,
      "ship_known": true,
      "card": "",
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":true, \"quickDeliveryText \": \"평일 15:00까지 주문 시 \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redire"
     },
     {
      "shop": "11번가",
-     "price": 1547760,
+     "price": 1547660,
      "ship_text": "무료배송",
      "ship": 0,
-     "total": 1547760,
+     "total": 1547660,
      "ship_known": true,
      "card": "",
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":true, \"quickDeliveryText \": \"평일 15:00까지 주문 시 \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redire"
@@ -245,8 +245,8 @@
      "ship": 0,
      "total": 166130,
      "ship_known": true,
-     "card": "삼성카드",
-     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"cardInfo \":{ \"cardNameText \": \"삼성카드 \", \"cardPrice \":166130}, \"brid"
+     "card": "현대카드",
+     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"cardInfo \":{ \"cardNameText \": \"현대카드 \", \"cardPrice \":166130}, \"brid"
     },
     {
      "shop": "신세계라이브쇼핑",
@@ -259,7 +259,7 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
     },
     {
-     "shop": "SSG.COM",
+     "shop": "신세계몰",
      "price": 172469,
      "ship_text": "무료배송",
      "ship": 0,
@@ -269,7 +269,7 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
     },
     {
-     "shop": "신세계몰",
+     "shop": "SSG.COM",
      "price": 172469,
      "ship_text": "무료배송",
      "ship": 0,
@@ -309,7 +309,7 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"type \": \"lowest \", \"bridgePageLink \": \"https://www.enuri.com/move/"
     },
     {
-     "shop": "SSG.COM",
+     "shop": "신세계몰",
      "price": 398169,
      "ship_text": "무료배송",
      "ship": 0,
@@ -319,7 +319,7 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
     },
     {
-     "shop": "신세계몰",
+     "shop": "SSG.COM",
      "price": 398169,
      "ship_text": "무료배송",
      "ship": 0,
@@ -349,16 +349,6 @@
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":true, \"quickDeliveryText \": \"평일 15:00까지 주문 시 \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redire"
     },
     {
-     "shop": "옥션",
-     "price": 419000,
-     "ship_text": "무료배송",
-     "ship": 0,
-     "total": 419000,
-     "ship_known": true,
-     "card": "",
-     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"badges \":[{ \"label \": \"인증 \", \"type \": \"certified \"}], \"bridgePageL"
-    },
-    {
      "shop": "현대Hmall",
      "price": 419000,
      "ship_text": "무료배송",
@@ -367,6 +357,16 @@
      "ship_known": true,
      "card": "",
      "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"bridgePageLink \": \"https://www.enuri.com/move/Redirect.jsp?cmd=mov"
+    },
+    {
+     "shop": "옥션",
+     "price": 419000,
+     "ship_text": "무료배송",
+     "ship": 0,
+     "total": 419000,
+     "ship_known": true,
+     "card": "",
+     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"badges \":[{ \"label \": \"인증 \", \"type \": \"certified \"}], \"bridgePageL"
     },
     {
      "shop": "YES24",
@@ -390,13 +390,13 @@
     },
     {
      "shop": "G마켓",
-     "price": 655060,
+     "price": 655560,
      "ship_text": "무료배송",
      "ship": 0,
-     "total": 655060,
+     "total": 655560,
      "ship_known": true,
      "card": "NH카드",
-     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"cardInfo \":{ \"cardNameText \": \"NH카드 \", \"cardPrice \":655060}, \"brid"
+     "after": ", \"quickDeliveryInfo \":{ \"isQuickDelivery \":false, \"quickDeliveryText \": \" \"}, \"reward \":[], \"cardInfo \":{ \"cardNameText \": \"NH카드 \", \"cardPrice \":655560}, \"brid"
     }
    ],
    "check": "최저 판매가가 페이지가 밝힌 최저가와 일치"
